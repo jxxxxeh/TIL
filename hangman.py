@@ -5,6 +5,8 @@ characters = ''
 rem_chance = 5
 blank = '_'*len(word)
 
+def print_chance():
+    print(rem_chance, 'Left.')
 
 def chance(rem_chance):
     if rem_chance == 4:
@@ -20,7 +22,7 @@ def chance(rem_chance):
 ⎜
 ⎜
 ''')
-        print(rem_chance, 'Left.')
+        print_chance()
 
     elif rem_chance == 3:
         print(
@@ -35,7 +37,7 @@ def chance(rem_chance):
 ⎜
 ⎜
 ''')
-        print(rem_chance, 'Left.')
+        print_chance()
 
     elif rem_chance == 2:
         print(
@@ -50,7 +52,7 @@ def chance(rem_chance):
 ⎜
 ⎜
 ''')
-        print(rem_chance, 'Left.')
+        print_chance()
 
     elif rem_chance == 1:
         print(
@@ -65,7 +67,7 @@ def chance(rem_chance):
 ⎜
 ⎜
 ''')
-        print(rem_chance, 'Left.')
+        print_chance()
 
     elif rem_chance == 0:
         print(
